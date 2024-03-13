@@ -321,7 +321,7 @@ header .points3 {
 .cards {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; /*Sirve para que los elementos con display flex ocupen varias lineas*/
+  /* flex-wrap: wrap; /*Sirve para que los elementos con display flex ocupen varias lineas*/
   width: 100%;
 }
 
@@ -392,7 +392,7 @@ header .points3 {
 }
 
 .contact {
-  background: url("../img/contact-bg.svg") center bottom / cover;
+  background: url("../img/contact-bg.jpg") center bottom / cover;
 }
 
 .contact-box {
@@ -403,7 +403,7 @@ header .points3 {
   padding: 5.5rem 4.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: -5%;
+  margin-top: -4%;
 }
 
 .contact-info {
