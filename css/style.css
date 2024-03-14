@@ -509,3 +509,25 @@ header .points3 {
 }
 
 /* Fin Sección de contacto */
+
+/* Sección de footer */
+
+.footer {
+  background-color: var(--light-three);
+  display: block;
+}
+
+#footer-bar{
+  padding: 15px 0px 10px;
+}
+
+#footer-text{
+  color: var(--dark-two);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+
+
+/* Fin sección de footer */
