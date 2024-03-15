@@ -518,6 +518,10 @@ header .points3 {
 }
 
 #footer-bar{
+  display: flex;
+  max-width: fit-content;
+  justify-content: space-between;
+  height: 5rem;
   padding: 15px 0px 10px;
 }
 
