@@ -113,7 +113,7 @@ overflow: hidden puede ayudar a evitar que el contenido desborde o
 se superponga incorrectamente, manteniendo todo dentro de los
 límites del contenedor */
 .section {
-  padding: 7rem 0;
+  padding: 4rem 0 4rem 0;
   overflow: hidden;
 }
 
