@@ -514,23 +514,35 @@ header .points3 {
 
 .footer {
   background-color: var(--light-three);
-  display: block;
+  display: flex;
+  justify-content:flex-start;
 }
 
-#footer-bar{
+#footer-bar {
   display: flex;
   max-width: fit-content;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
   height: 5rem;
-  padding: 15px 0px 10px;
+  padding: 15px 20px 10px;
 }
 
-#footer-text{
+#footer-text {
   color: var(--dark-two);
   font-size: 1.2rem;
   font-weight: 500;
+  padding: 0px 30px;
 }
 
+#instagram, #linkedin {
+  font-size: 35px;
+}
+
+#links-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 0px 0px 400px;
+}
 
 
 
